@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>>Ungheni - Orașul viitorului!</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="images/png" href="../ImgVid/logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            Ungheni - Orașul viitorului
+            <i class="fas fa-city logo"></i>
+        </a>
+
+        <i id="meniu-btn" class="fas fa-bars" onclick="show()"></i>
+
+    </header>
+
+    <div class="page-container">
+        <aside id="side-meniu">
+            <a href="../index.html">Date informative<br /> <i class="fas fa-home logo"></i></a>
+            <a href="evenimente.html">Obiective turistice<br /> <i class="fas fa-newspaper logo"></i></a>
+            <a href="foto.html">Foto-Galerie <br /> <i class="fas fa-camera logo"></i></a>
+            <a href="edu-media.html">Mass-media <br /><i class="fas fa-info-circle logo"></i></a>
+            <a href="contacte.html" class="active">Contacte <br /><i class="fas fa-phone-alt logo"></i></a>
+        </aside>
+
+        <main>
+            <h2 class="title">Contacte</h2>
+            <div class="row">
+                <div class="col-50">
+                    <h3>Contactează-ne dacă:</h3>
+                    <ul class="contact-list">
+                        <li>Dorești să vizitezi orașaul.</li>
+                        <!-- <li>Cauți un loc de voluntariat.</li> -->
+                        <!-- <li>Dorești să .</li> -->
+                        <li>Ai sugestii sau propuneri pentru înbunătățirea site-ului.</li>
+                    </ul>
+                </div>
+                <div class="col-50">
+                    <h3>Date de contact</h3>
+                    <ul class="contact-list">
+                        <li><b>Consiliul raional </b><a href="http://www.crungheni.md/" target="_blank">0 (236)
+                                2-26-50</a></li>
+                        <li><b>Secția de poliție </b> <a
+                                href="https://politia.md/ru/profile-departments/inspectoratul-de-politie-ungheni"
+                                target="_blank">tel: +373 (22) 868-112</a> </li>
+                        <li><b>Primăria </b><a href="https://ungheni.md/" target="_blank">ungheni.md</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-50">
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43366.05531163164!2d27.75857846261545!3d47.20917671490817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cb0046bfd84557%3A0xe00e3fbbb82475b7!2sUngheni!5e0!3m2!1sro!2s!4v1660642890989!5m2!1sro!2s"
+                        allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+                <div class="col-50">
+                    <div class="contact-form">
+                        <form>
+                            <h3 class="centered"> Lasa un mesaj!</h3>
+                            <input type="text" placeholder="Nume,Prenume" required>
+                            <input type="email" placeholder="Email" required>
+                            <textarea rows="3" placeholder="Mesaj" required></textarea>
+                            <input type="submit" value="Transmite">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+    <script src="../js/main.js"></script>
+
+</body>
+
+</html>
